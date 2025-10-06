@@ -106,9 +106,9 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.label_2.setText(_translate("MainWindow", "Calculadora de credito de carbono"))
+        self.label_2.setText(_translate("MainWindow", "Calculadora de crédito de carbono"))
         self.label_3.setText(_translate("MainWindow", "A Calculadora de Carbono é uma ferramenta prática e acessível que ajuda você a entender o impacto ambiental das suas atividades diárias. Ao inserir informações sobre transporte, consumo de energia, alimentação e hábitos de consumo, você descobre sua pegada de carbono e recebe orientações para reduzir ou compensar suas emissões. Contribua para um futuro mais sustentável começando por conhecer o seu impacto hoje."))
-        self.pushButton.setText(_translate("MainWindow", "iniciar calculo"))
+        self.pushButton.setText(_translate("MainWindow", "Iniciar cálculo"))
 
 
 if __name__ == "__main__":

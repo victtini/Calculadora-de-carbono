@@ -226,13 +226,13 @@ class Ui_MainWindow(object):
         self.label_5.setText(_translate("MainWindow", "Gasolina gasta (litros)"))
         self.label_7.setText(_translate("MainWindow", "Gás gasto (m³)"))
         self.label_10.setText(_translate("MainWindow", "Meios de transporte"))
-        self.label_12.setText(_translate("MainWindow", "Kilometros rodados(km/hr)"))
-        self.pushButton_calcular.setText(_translate("MainWindow", "calcular"))
+        self.label_12.setText(_translate("MainWindow", "Quilômetros rodados(km/hr)"))
+        self.pushButton_calcular.setText(_translate("MainWindow", "Calcular"))
         self.comboBox_transporte.setItemText(0, _translate("MainWindow", "Carro"))
         self.comboBox_transporte.setItemText(1, _translate("MainWindow", "Moto"))
         self.comboBox_transporte.setItemText(2, _translate("MainWindow", "Onibus"))
         self.pushButton_voltar.setText(_translate("MainWindow", "⬅️"))
-        self.label_13.setText(_translate("MainWindow", "insira os dados para calcular"))
+        self.label_13.setText(_translate("MainWindow", "Insira os dados para calcular"))
 
 
 if __name__ == "__main__":

@@ -272,8 +272,8 @@ class Ui_MainWindow(object):
         self.arvore.setText(_translate("MainWindow", "a"))
         self.label_10.setText(_translate("MainWindow", "♻️ Créditos de carbono equivalentes:"))
         self.credit.setText(_translate("MainWindow", "a"))
-        self.label_7.setText(_translate("MainWindow", "resultados"))
-        self.label_14.setText(_translate("MainWindow", "dicas de redução de consumo"))
+        self.label_7.setText(_translate("MainWindow", "Resultados"))
+        self.label_14.setText(_translate("MainWindow", "Dicas de redução de consumo"))
         self.label_15.setText(_translate("MainWindow", "💡 Apague as luzes ao sair dos cômodos.   \n"
 "\n"
 "🚴‍♂️ Prefira transporte público ou bicicleta.   \n"
@@ -287,8 +287,8 @@ class Ui_MainWindow(object):
 "Pequenas ações no dia a dia ajudam a diminuir essa pegada. 🌱"))
         self.label_18.setText(_translate("MainWindow", "🌎 Sabia disso?"))
         self.label_19.setText(_translate("MainWindow", "🌍 Relatório da sua pegada de carbono 🌿"))
-        self.refazer.setText(_translate("MainWindow", "🔁 refazer calculo"))
-        self.fechar.setText(_translate("MainWindow", "❌ fechar"))
+        self.refazer.setText(_translate("MainWindow", "🔁 Refazer calculo"))
+        self.fechar.setText(_translate("MainWindow", "❌ Fechar"))
 
 
 if __name__ == "__main__":
