@@ -276,7 +276,7 @@ class Ui_MainWindow(object):
         self.label_14.setText(_translate("MainWindow", "Dicas de redução de consumo"))
         self.label_15.setText(_translate("MainWindow", "💡 Apague as luzes ao sair dos cômodos.   \n"
 "\n"
-"🚴‍♂️ Prefira transporte público ou bicicleta.   \n"
+"🚴‍♂️ Prefira utilizar transporte público ou bicicleta.   \n"
 "\n"
 "🥦 Reduza o consumo de carne vermelha.   \n"
 "\n"
