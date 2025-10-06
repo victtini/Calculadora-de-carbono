@@ -14,79 +14,90 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(1059, 540)
+        MainWindow.resize(1139, 551)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.label = QtWidgets.QLabel(self.centralwidget)
-        self.label.setGeometry(QtCore.QRect(0, -20, 1101, 561))
+        self.label.setGeometry(QtCore.QRect(-10, -40, 1151, 591))
         font = QtGui.QFont()
         font.setFamily("Arial")
         self.label.setFont(font)
         self.label.setText("")
-        self.label.setPixmap(QtGui.QPixmap("imagens/calculadoraBot.png"))
+        self.label.setPixmap(QtGui.QPixmap("imagens/fundo1.png"))
         self.label.setScaledContents(True)
         self.label.setObjectName("label")
         self.label_2 = QtWidgets.QLabel(self.centralwidget)
-        self.label_2.setGeometry(QtCore.QRect(310, 30, 401, 211))
+        self.label_2.setGeometry(QtCore.QRect(570, -20, 511, 211))
         font = QtGui.QFont()
-        font.setFamily("Impact")
+        font.setFamily("Segoe UI Black")
         font.setPointSize(28)
-        font.setBold(False)
-        font.setWeight(50)
+        font.setBold(True)
+        font.setWeight(75)
         self.label_2.setFont(font)
-        self.label_2.setStyleSheet("color: white;\n"
-"\n"
-"")
+        self.label_2.setStyleSheet("")
         self.label_2.setAlignment(QtCore.Qt.AlignCenter)
         self.label_2.setWordWrap(True)
         self.label_2.setObjectName("label_2")
         self.label_3 = QtWidgets.QLabel(self.centralwidget)
-        self.label_3.setGeometry(QtCore.QRect(80, 240, 881, 201))
+        self.label_3.setGeometry(QtCore.QRect(50, 30, 441, 431))
         font = QtGui.QFont()
-        font.setFamily("Arial")
-        font.setPointSize(14)
-        font.setBold(True)
-        font.setWeight(75)
+        font.setFamily("Franklin Gothic Demi")
+        font.setPointSize(13)
+        font.setBold(False)
+        font.setWeight(50)
         self.label_3.setFont(font)
-        self.label_3.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_3.setStyleSheet("color: rgb(30, 30, 30);\n"
+"")
+        self.label_3.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignVCenter)
         self.label_3.setWordWrap(True)
         self.label_3.setObjectName("label_3")
         self.pushButton = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton.setGeometry(QtCore.QRect(420, 460, 231, 51))
+        self.pushButton.setGeometry(QtCore.QRect(110, 440, 304, 71))
         font = QtGui.QFont()
         font.setPointSize(16)
         font.setBold(True)
         font.setWeight(75)
         self.pushButton.setFont(font)
-        self.pushButton.setStyleSheet("QPushButton {\n"
-"    border-radius: 20px;   \n"
-"    font-weight: bold;\n"
-"    padding: 8px 16px;\n"
-"\n"
-"    background: qlineargradient(\n"
-"        x1:0, y1:0, x2:1, y2:0,\n"
-"        stop:0 #007BFF,\n"
-"        stop:1 #A8F7C6\n"
-"    );\n"
+        self.pushButton.setStyleSheet("\n"
+"QPushButton {\n"
+"    background-color: #4CAF50; /* verde */\n"
+"    color: white;\n"
+"    border: none;\n"
+"    border-radius: 10px;\n"
+"    padding: 10px;\n"
 "}\n"
-"\n"
 "QPushButton:hover {\n"
-"    background: qlineargradient(\n"
-"        x1:0, y1:0, x2:1, y2:0,\n"
-"        stop:0 #0069d9,\n"
-"        stop:1 #90eeb4\n"
-"    );\n"
+"    background-color: #45a049; /* verde mais escuro no hover */\n"
 "}\n"
-"\n"
 "QPushButton:pressed {\n"
-"    background: qlineargradient(\n"
-"        x1:0, y1:0, x2:1, y2:0,\n"
-"        stop:0 #0056b3,\n"
-"        stop:1 #78d8a0\n"
-"    );\n"
-"}\n"
-"")
+"    background-color: #3e8e41; /* verde ainda mais escuro no clique */\n"
+"}")
+        self.pushButton.setShortcut("")
         self.pushButton.setObjectName("pushButton")
+        self.label_4 = QtWidgets.QLabel(self.centralwidget)
+        self.label_4.setGeometry(QtCore.QRect(40, 40, 451, 491))
+        self.label_4.setStyleSheet("QWidget {\n"
+"    background-color: rgba(255, 255, 255, 191); /* branco com 75% de opacidade */\n"
+"    border: 2px solid rgba(255, 255, 255, 191); /* borda branca com 75% de opacidade */\n"
+"    border-radius: 20px; /* borda arredondada */\n"
+"}")
+        self.label_4.setText("")
+        self.label_4.setObjectName("label_4")
+        self.label_6 = QtWidgets.QLabel(self.centralwidget)
+        self.label_6.setGeometry(QtCore.QRect(590, 20, 471, 141))
+        self.label_6.setStyleSheet("QWidget {\n"
+"    background-color: rgba(255, 255, 255, 191); /* branco com 75% de opacidade */\n"
+"    border: 2px solid rgba(255, 255, 255, 191); /* borda branca com 75% de opacidade */\n"
+"    border-radius: 20px; /* borda arredondada */\n"
+"}")
+        self.label_6.setText("")
+        self.label_6.setObjectName("label_6")
+        self.label.raise_()
+        self.label_6.raise_()
+        self.label_2.raise_()
+        self.label_4.raise_()
+        self.label_3.raise_()
+        self.pushButton.raise_()
         MainWindow.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(MainWindow)
@@ -97,7 +108,7 @@ class Ui_MainWindow(object):
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
         self.label_2.setText(_translate("MainWindow", "Calculadora de credito de carbono"))
         self.label_3.setText(_translate("MainWindow", "A Calculadora de Carbono é uma ferramenta prática e acessível que ajuda você a entender o impacto ambiental das suas atividades diárias. Ao inserir informações sobre transporte, consumo de energia, alimentação e hábitos de consumo, você descobre sua pegada de carbono e recebe orientações para reduzir ou compensar suas emissões. Contribua para um futuro mais sustentável começando por conhecer o seu impacto hoje."))
-        self.pushButton.setText(_translate("MainWindow", "calcular "))
+        self.pushButton.setText(_translate("MainWindow", "iniciar calculo"))
 
 
 if __name__ == "__main__":
