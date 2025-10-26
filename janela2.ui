@@ -69,8 +69,8 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>70</x>
-      <y>380</y>
+      <x>80</x>
+      <y>260</y>
       <width>431</width>
       <height>21</height>
      </rect>
@@ -93,8 +93,8 @@
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>70</x>
-      <y>370</y>
+      <x>80</x>
+      <y>250</y>
       <width>431</width>
       <height>101</height>
      </rect>
@@ -106,55 +106,13 @@
     </property>
     <property name="text">
      <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_4">
-    <property name="geometry">
-     <rect>
-      <x>70</x>
-      <y>120</y>
-      <width>431</width>
-      <height>101</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">border-radius: 20px; 
- background-color:rgb(218, 218, 218);
-</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_5">
-    <property name="geometry">
-     <rect>
-      <x>70</x>
-      <y>130</y>
-      <width>431</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Arial</family>
-      <pointsize>11</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="text">
-     <string>Gasolina gasta (litros)</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_7">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>260</y>
+      <x>90</x>
+      <y>130</y>
       <width>431</width>
       <height>21</height>
      </rect>
@@ -177,8 +135,8 @@
    <widget class="QLabel" name="label_8">
     <property name="geometry">
      <rect>
-      <x>70</x>
-      <y>250</y>
+      <x>80</x>
+      <y>120</y>
       <width>431</width>
       <height>101</height>
      </rect>
@@ -279,7 +237,7 @@
    <widget class="QPushButton" name="pushButton_calcular">
     <property name="geometry">
      <rect>
-      <x>610</x>
+      <x>370</x>
       <y>400</y>
       <width>281</width>
       <height>71</height>
@@ -315,21 +273,11 @@ QPushButton:pressed {
      <string/>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_gasolina">
-    <property name="geometry">
-     <rect>
-      <x>90</x>
-      <y>170</y>
-      <width>391</width>
-      <height>31</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QLineEdit" name="lineEdit_gas">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>300</y>
+      <x>100</x>
+      <y>170</y>
       <width>391</width>
       <height>31</height>
      </rect>
@@ -338,8 +286,8 @@ QPushButton:pressed {
    <widget class="QLineEdit" name="lineEdit_energia">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>420</y>
+      <x>100</x>
+      <y>300</y>
       <width>391</width>
       <height>31</height>
      </rect>
@@ -371,12 +319,22 @@ QPushButton:pressed {
     </item>
     <item>
      <property name="text">
+      <string>Carro eletrico</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bicicleta</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
       <string>Moto</string>
      </property>
     </item>
     <item>
      <property name="text">
-      <string>Onibus</string>
+      <string>Ônibus</string>
      </property>
     </item>
    </widget>
@@ -449,8 +407,6 @@ QPushButton:pressed {
    <zorder>label_3</zorder>
    <zorder>comboBox</zorder>
    <zorder>label_2</zorder>
-   <zorder>label_4</zorder>
-   <zorder>label_5</zorder>
    <zorder>label_8</zorder>
    <zorder>label_7</zorder>
    <zorder>label_9</zorder>
@@ -458,7 +414,6 @@ QPushButton:pressed {
    <zorder>label_11</zorder>
    <zorder>label_12</zorder>
    <zorder>pushButton_calcular</zorder>
-   <zorder>lineEdit_gasolina</zorder>
    <zorder>lineEdit_gas</zorder>
    <zorder>lineEdit_energia</zorder>
    <zorder>lineEdit_km</zorder>

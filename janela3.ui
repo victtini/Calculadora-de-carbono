@@ -43,7 +43,7 @@
       <x>-80</x>
       <y>-20</y>
       <width>1161</width>
-      <height>561</height>
+      <height>581</height>
      </rect>
     </property>
     <property name="text">
@@ -62,7 +62,7 @@
       <x>90</x>
       <y>70</y>
       <width>421</width>
-      <height>201</height>
+      <height>221</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -242,7 +242,7 @@
    <widget class="QLabel" name="label_7">
     <property name="geometry">
      <rect>
-      <x>160</x>
+      <x>190</x>
       <y>90</y>
       <width>221</width>
       <height>31</height>
@@ -323,10 +323,10 @@
    <widget class="QLabel" name="label_15">
     <property name="geometry">
      <rect>
-      <x>570</x>
+      <x>580</x>
       <y>190</y>
       <width>421</width>
-      <height>201</height>
+      <height>221</height>
      </rect>
     </property>
     <property name="font">
@@ -382,10 +382,10 @@
    <widget class="QLabel" name="label_17">
     <property name="geometry">
      <rect>
-      <x>110</x>
-      <y>310</y>
-      <width>381</width>
-      <height>221</height>
+      <x>100</x>
+      <y>350</y>
+      <width>411</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="font">
@@ -394,8 +394,7 @@
      </font>
     </property>
     <property name="text">
-     <string>Cada pessoa no Brasil emite, em média, 11 toneladas de CO₂ por ano — cerca de 916 kg por mês.
-Pequenas ações no dia a dia ajudam a diminuir essa pegada. 🌱</string>
+     <string>Cada pessoa no Brasil emite, em média, 11 toneladas de CO₂ por ano. quer saber mais sobre consumo? clique no botão abaixo para descobrir mais sites.</string>
     </property>
     <property name="wordWrap">
      <bool>true</bool>
@@ -544,6 +543,85 @@ QPushButton:pressed {
      <string/>
     </property>
    </widget>
+   <widget class="QPushButton" name="links">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>450</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Black</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton {
+    background-color: #4CAF50; /* verde */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+QPushButton:hover {
+    background-color: #45a049; /* verde mais escuro no hover */
+}
+QPushButton:pressed {
+    background-color: #3e8e41; /* verde ainda mais escuro no clique */
+}</string>
+    </property>
+    <property name="text">
+     <string>🤓 Saiba mais</string>
+    </property>
+    <property name="shortcut">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>250</y>
+      <width>341</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>💵 Valor:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="money">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>250</y>
+      <width>291</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>a</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
    <zorder>label</zorder>
    <zorder>label_6</zorder>
    <zorder>label_9</zorder>
@@ -565,6 +643,9 @@ QPushButton:pressed {
    <zorder>label_19</zorder>
    <zorder>refazer</zorder>
    <zorder>fechar</zorder>
+   <zorder>links</zorder>
+   <zorder>label_11</zorder>
+   <zorder>money</zorder>
   </widget>
  </widget>
  <resources/>

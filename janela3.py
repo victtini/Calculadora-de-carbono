@@ -27,13 +27,13 @@ class Ui_MainWindow(object):
         self.label_6.setText("")
         self.label_6.setObjectName("label_6")
         self.label = QtWidgets.QLabel(self.centralwidget)
-        self.label.setGeometry(QtCore.QRect(-80, -20, 1161, 561))
+        self.label.setGeometry(QtCore.QRect(-80, -20, 1161, 581))
         self.label.setText("")
         self.label.setPixmap(QtGui.QPixmap("imagens/calculadoraBot.png"))
         self.label.setScaledContents(True)
         self.label.setObjectName("label")
         self.label_9 = QtWidgets.QLabel(self.centralwidget)
-        self.label_9.setGeometry(QtCore.QRect(90, 70, 421, 201))
+        self.label_9.setGeometry(QtCore.QRect(90, 70, 421, 221))
         self.label_9.setStyleSheet("border-radius: 20px; \n"
 " background-color:rgb(218, 218, 218);\n"
 "")
@@ -94,7 +94,7 @@ class Ui_MainWindow(object):
         self.credit.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignVCenter)
         self.credit.setObjectName("credit")
         self.label_7 = QtWidgets.QLabel(self.centralwidget)
-        self.label_7.setGeometry(QtCore.QRect(160, 90, 221, 31))
+        self.label_7.setGeometry(QtCore.QRect(190, 90, 221, 31))
         font = QtGui.QFont()
         font.setFamily("Segoe UI Black")
         font.setPointSize(20)
@@ -130,7 +130,7 @@ class Ui_MainWindow(object):
         self.label_14.setWordWrap(True)
         self.label_14.setObjectName("label_14")
         self.label_15 = QtWidgets.QLabel(self.centralwidget)
-        self.label_15.setGeometry(QtCore.QRect(570, 190, 421, 201))
+        self.label_15.setGeometry(QtCore.QRect(580, 190, 421, 221))
         font = QtGui.QFont()
         font.setFamily("Arial")
         font.setPointSize(12)
@@ -152,7 +152,7 @@ class Ui_MainWindow(object):
         self.label_16.setText("")
         self.label_16.setObjectName("label_16")
         self.label_17 = QtWidgets.QLabel(self.centralwidget)
-        self.label_17.setGeometry(QtCore.QRect(110, 310, 381, 221))
+        self.label_17.setGeometry(QtCore.QRect(100, 350, 411, 101))
         font = QtGui.QFont()
         font.setPointSize(11)
         self.label_17.setFont(font)
@@ -235,6 +235,43 @@ class Ui_MainWindow(object):
 "")
         self.fechar.setShortcut("")
         self.fechar.setObjectName("fechar")
+        self.links = QtWidgets.QPushButton(self.centralwidget)
+        self.links.setGeometry(QtCore.QRect(170, 450, 231, 51))
+        font = QtGui.QFont()
+        font.setFamily("Segoe UI Black")
+        font.setPointSize(14)
+        font.setBold(True)
+        font.setWeight(75)
+        self.links.setFont(font)
+        self.links.setStyleSheet("\n"
+"QPushButton {\n"
+"    background-color: #4CAF50; /* verde */\n"
+"    color: white;\n"
+"    border: none;\n"
+"    border-radius: 10px;\n"
+"    padding: 10px;\n"
+"}\n"
+"QPushButton:hover {\n"
+"    background-color: #45a049; /* verde mais escuro no hover */\n"
+"}\n"
+"QPushButton:pressed {\n"
+"    background-color: #3e8e41; /* verde ainda mais escuro no clique */\n"
+"}")
+        self.links.setShortcut("")
+        self.links.setObjectName("links")
+        self.label_11 = QtWidgets.QLabel(self.centralwidget)
+        self.label_11.setGeometry(QtCore.QRect(110, 250, 341, 31))
+        font = QtGui.QFont()
+        font.setPointSize(12)
+        self.label_11.setFont(font)
+        self.label_11.setObjectName("label_11")
+        self.money = QtWidgets.QLabel(self.centralwidget)
+        self.money.setGeometry(QtCore.QRect(200, 250, 291, 31))
+        font = QtGui.QFont()
+        font.setPointSize(12)
+        self.money.setFont(font)
+        self.money.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignVCenter)
+        self.money.setObjectName("money")
         self.label.raise_()
         self.label_6.raise_()
         self.label_9.raise_()
@@ -256,6 +293,9 @@ class Ui_MainWindow(object):
         self.label_19.raise_()
         self.refazer.raise_()
         self.fechar.raise_()
+        self.links.raise_()
+        self.label_11.raise_()
+        self.money.raise_()
         MainWindow.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(MainWindow)
@@ -272,23 +312,25 @@ class Ui_MainWindow(object):
         self.arvore.setText(_translate("MainWindow", "a"))
         self.label_10.setText(_translate("MainWindow", "♻️ Créditos de carbono equivalentes:"))
         self.credit.setText(_translate("MainWindow", "a"))
-        self.label_7.setText(_translate("MainWindow", "Resultados"))
-        self.label_14.setText(_translate("MainWindow", "Dicas de redução de consumo"))
+        self.label_7.setText(_translate("MainWindow", "resultados"))
+        self.label_14.setText(_translate("MainWindow", "dicas de redução de consumo"))
         self.label_15.setText(_translate("MainWindow", "💡 Apague as luzes ao sair dos cômodos.   \n"
 "\n"
-"🚴‍♂️ Prefira utilizar transporte público ou bicicleta.   \n"
+"🚴‍♂️ Prefira transporte público ou bicicleta.   \n"
 "\n"
 "🥦 Reduza o consumo de carne vermelha.   \n"
 "\n"
 "🔌 Desligue aparelhos da tomada quando não estiver usando.  \n"
 "\n"
 "🌳 Plante uma árvore — pequenas ações somam!"))
-        self.label_17.setText(_translate("MainWindow", "Cada pessoa no Brasil emite, em média, 11 toneladas de CO₂ por ano — cerca de 916 kg por mês.\n"
-"Pequenas ações no dia a dia ajudam a diminuir essa pegada. 🌱"))
+        self.label_17.setText(_translate("MainWindow", "Cada pessoa no Brasil emite, em média, 11 toneladas de CO₂ por ano. quer saber mais sobre consumo? clique no botão abaixo para descobrir mais sites."))
         self.label_18.setText(_translate("MainWindow", "🌎 Sabia disso?"))
         self.label_19.setText(_translate("MainWindow", "🌍 Relatório da sua pegada de carbono 🌿"))
-        self.refazer.setText(_translate("MainWindow", "🔁 Refazer calculo"))
-        self.fechar.setText(_translate("MainWindow", "❌ Fechar"))
+        self.refazer.setText(_translate("MainWindow", "🔁 refazer calculo"))
+        self.fechar.setText(_translate("MainWindow", "❌ fechar"))
+        self.links.setText(_translate("MainWindow", "🤓 Saiba mais"))
+        self.label_11.setText(_translate("MainWindow", "💵 Valor:"))
+        self.money.setText(_translate("MainWindow", "a"))
 
 
 if __name__ == "__main__":
