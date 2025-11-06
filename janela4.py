@@ -200,7 +200,7 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.label_19.setText(_translate("MainWindow", "🌍   sites que falam sobre o consumo sustentavel 🌿"))
+        self.label_19.setText(_translate("MainWindow", "🌍   Sites que falam sobre o consumo sustentável 🌿"))
         self.link1.setText(_translate("MainWindow", "aaaaaa"))
         self.link2.setText(_translate("MainWindow", "aaaaaa"))
         self.link3.setText(_translate("MainWindow", "aaaaaa"))
